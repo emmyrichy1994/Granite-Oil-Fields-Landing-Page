@@ -7,7 +7,7 @@ export function ContactForm() {
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
-    const subject = String(form.get('subject') || 'Granite Oil Fields enquiry');
+    const subject = String(form.get('subject') || 'Granite Oil Fields Services enquiry');
     const body = [`Name: ${form.get('name')}`, `Email: ${form.get('email')}`, `Phone: ${form.get('phone') || 'Not provided'}`, `Company: ${form.get('company') || 'Not provided'}`, '', String(form.get('message'))].join('\n');
     window.location.href = `mailto:info@graniteoilfieldsinc.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setNotice('Your email application is opening with your enquiry prepared.');
