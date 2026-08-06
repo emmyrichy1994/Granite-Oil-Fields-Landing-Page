@@ -22,6 +22,14 @@ Open `http://localhost:3000`. Create a production build with `npm run build`.
 
 Push the repository to GitHub and import it in Vercel. No deployment configuration is required. Set the production site URL in `app/layout.tsx` when the domain is final.
 
+## CI
+
+This repository includes a GitHub Actions workflow that runs on pushes and pull requests to `main` and performs `npm ci`, `npm run build`, and `npm test` if present.
+
+Badge (visible after the first run):
+
+[CI status](https://github.com/emmyrichy1994/Granite-Oil-Fields-Landing-Page/actions)
+
 ## Structure
 
 - `app/` — routes, metadata, sitemap and global styling
