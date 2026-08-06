@@ -6,8 +6,8 @@ import { useEffect, useState } from 'react';
 import { ArrowRight, CheckCircle2, Drill, Factory, Gauge, HardHat, ShieldCheck, Wrench, Zap, type LucideIcon } from 'lucide-react';
 import { Navigation, Logo } from './navigation';
 
-const images=['https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=2000&q=85','https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=85','https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?auto=format&fit=crop&w=2000&q=85'];
-const fieldImage='https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1800&q=85';
+const images=['/images/hero-offshore-platform.jpg','/images/hero-offshore-operator.jpg','/images/hero-offshore-rig.jpg'];
+const fieldImage='/images/hero-offshore-operator.jpg';
 const services: [string, string, LucideIcon, string][]=[['drilling','Drilling',Drill,'Operational drilling support from planning through daily field execution.'],['completions','Completions',CheckCircle2,'Project management and technical guidance for complex completion programs.'],['frac','Frac Monitoring',Gauge,'Experienced oversight and responsive support through every frac stage.'],['plugging','Well Plugging',Wrench,'Organized plugging and abandonment support from review to closeout.']];
 const features: [LucideIcon,string,string][]=[[ShieldCheck,'Safety-Led Execution','A practical safety mindset informs every field decision.'],[HardHat,'Proven Field Experience','Experienced people who understand what productive work requires.'],[Factory,'Integrated Support','Planning, supervision and reporting connected around your program.'],[Zap,'Responsive Service','Clear communication and reliable coverage when timing matters.']];
 const reveal={initial:{opacity:0,y:28},whileInView:{opacity:1,y:0},viewport:{once:true,amount:.2},transition:{duration:.6}};
