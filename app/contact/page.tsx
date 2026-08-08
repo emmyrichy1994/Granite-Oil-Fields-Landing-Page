@@ -1,3 +1,6 @@
 import { ContactForm } from '@/components/contact-form';
 import { Navigation } from '@/components/navigation';
-export default function ContactPage() { return <main><Navigation/><section className="subhero"><p className="eyebrow">GRANITE OIL FIELDS SERVICES</p><h1>Contact Us</h1><p>Tell us about your drilling, completion, frac monitoring or plugging requirement.</p></section><section className="contactSection"><div><p className="eyebrow">START A CONVERSATION</p><h2>Let’s discuss your field requirements.</h2><p>Share the scope, location and timing of your project. Granite Oil Fields Services will prepare a response around the support your operation needs.</p><a className="textLink" href="mailto:info@graniteoilfieldsinc.com">info@graniteoilfieldsinc.com</a></div><ContactForm/></section></main>; }
+
+export default function ContactPage() {
+  return <main><Navigation/><section className="subhero"><p className="eyebrow">GRANITE OILFIELD SERVICES</p><h1>Contact Us</h1><p>Tell us about your drilling, completion, frac monitoring or plugging requirement.</p></section><section className="contactSection"><div><p className="eyebrow">START A CONVERSATION</p><h2>Let’s discuss your field requirements.</h2><p>Share the scope, location and timing of your project. Granite Oilfield Services will prepare a response around the support your operation needs.</p><a className="textLink" href="mailto:info@graniteoilfieldsinc.com">info@graniteoilfieldsinc.com</a></div><ContactForm/></section></main>;
+}

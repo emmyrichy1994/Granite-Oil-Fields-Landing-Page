@@ -1,6 +1,6 @@
-# Granite Oil Fields Services
+# Granite Oilfield Services
 
-A premium, responsive corporate website for Granite Oil Fields Services, built with original Next.js code and a mobile-first experience.
+A premium, responsive corporate website for Granite Oilfield Services, built with original Next.js code and a mobile-first experience.
 
 ## Stack
 
